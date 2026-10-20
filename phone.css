@@ -18,6 +18,11 @@
         width: 100%;
     }
 
+    .nav-child:nth-child(2) div:nth-child(3) img,
+    .nav-child:nth-child(2) div:nth-child(4) img {
+        width: 17px;
+    }
+
     .child-none {
         display: none;
         font-weight: 700;
@@ -25,6 +30,7 @@
 
     .nav-child img {
         width: 100%;
+        flex-shrink: 0;
     }
 
     .nav-child a {
@@ -58,7 +64,6 @@
         /* border: none; */
         padding: 8px 4.5%;
         align-items: start;
-        di
     }
 
     .Hero-flex-child:nth-child(2) button {
@@ -90,8 +95,13 @@
         align-items: center;
     }
 
+    .nav-input {
+        max-width: 400px;
+    }
+
     .menu1 input {
-        padding: 14px 33% 14px 5%;
+        width: 100%;
+        padding: 14px 45px 14px 13px;
         outline: none;
         border-radius: 3px;
         border: 1px solid #c7ccc4;
@@ -132,8 +142,8 @@
     .input-search input {
         border: none;
         background: none;
-        width: 360px;
-        max-width: 100%;
+        width: 100%;
+        /* max-width: 100%; */
         outline: none;
         padding: 14px 4px 14px 6px;
     }
@@ -147,6 +157,14 @@
         position: absolute;
         top: 35%;
         left: 88.5%;
+    }
+
+    .input-search ::placeholder  {
+        font-size: .7rem;
+    }
+
+    .search-input {
+        max-width: 460px;
     }
 
     .Product-section {
