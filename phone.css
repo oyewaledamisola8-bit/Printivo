@@ -25,9 +25,6 @@
         width: 17px;
     }
 
-    .nav-child:nth-child(2) div:nth-child(4) {}
-
-
     .nav-child:nth-child(2) div:nth-child(3),
     .nav-child:nth-child(2) div:nth-child(4) a {
         padding: 2.5%;
@@ -653,7 +650,7 @@
         /* flex-wrap: wrap; */
     }
 
-     .Footer-content {
+    .Footer-content {
         flex-wrap: wrap;
         /* flex-direction: column; */
         padding: 25px 0 80px 4.5%;
