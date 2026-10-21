@@ -350,7 +350,7 @@
     }
 }
 
-@media (min-width: 590px) and (max-width: 798px) {
+@media (min-width: 590px) and (max-width: 1600px) {
     .nav-bar {
         padding: 14px 4.5%;
         display: block;
